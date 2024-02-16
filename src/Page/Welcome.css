@@ -1,0 +1,62 @@
+/* Welcome.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    overflow: hidden;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-wrapper {
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); /* Glassy effect */
+    background-color: rgba(255, 255, 255, 0.1); /* Background transparency */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    margin-right: 10px;
+  }
+  
+  .select {
+    width: 100%;
+  }
+  
+  .textarea {
+    width: 100%;
+  }
+  
+  .submit-btn {
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+  }
+  

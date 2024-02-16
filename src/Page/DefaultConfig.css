@@ -1,0 +1,50 @@
+/* DefaultConfig.css */
+
+.default-config-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+}
+  
+  .login-box {
+    margin-right: 100px;
+    width: 400px; /* Increase width */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-container {
+    margin-left: 20px; /* Adjust as needed */
+  }
+  
+  .image-container img {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  .options-list {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .options-list li {
+    margin-bottom: 8px;
+  }
+  
+  .price-section {
+    margin-top: 20px;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .buttons-container button {
+    margin-right: 10px;
+  }
+  
